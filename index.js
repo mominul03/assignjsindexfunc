@@ -5,28 +5,28 @@ function calculateDifference(a, b) {
 
 
   
-  //  Check if a number is odd
+  //  Checking  odd
   function isOdd(num) {
     return num % 2 !== 0;
   }
 
 
   
-  //  Find Minimum Number in Array
+  //  Finding Minimum Number in Array
   function findMin(numbers) {
     return Math.min(...numbers);
   }
 
 
   
-  // Filter Even Numbers from Array
+  // Filtering Even Numbers from Array
   function filterEvenNumbers(numbers) {
     return numbers.filter(num => num % 2 === 0);
   }
 
 
   
-  // 5) Sort Array in Descending Order
+  // 5) Sorting Array in Descending Order
   function sortArrayDescending(numbers) {
     return numbers.sort((a, b) => b - a);
   }
@@ -40,7 +40,7 @@ function calculateDifference(a, b) {
 
 
   
-  // Find the Average of an Array
+  // Finding the Average of an Array
   function findAverage(numbers) {
     const sum = numbers.reduce((acc, num) => acc + num, 0);
     return sum / numbers.length;
@@ -48,7 +48,7 @@ function calculateDifference(a, b) {
 
 
   
-  //  Check if a Year is a Leap Year
+  //  Leap Year check
   function isLeapYear(year) {
     if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
       return true;
@@ -58,7 +58,7 @@ function calculateDifference(a, b) {
 
 
   
- // Call each function to test and display output
+ // Display
 console.log("Difference (14, 12):", calculateDifference(14,12));
 console.log("Is 8 odd?:", isOdd(8));
 console.log("Minimum in [8, 10, 2, 3]:", findMin([8, 10, 2, 3]));
